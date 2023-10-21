@@ -38,11 +38,15 @@ Embedded Style Sheet merupakan kumpulan rules yang dituliskan dalam berkas HTML 
 
 # Inline Style
 
-nline Style merupakan styling yang diterapkan pada elemen HTML dengan menggunakan atribut style. Contohnya seperti berikut:
+inline Style merupakan styling yang diterapkan pada elemen HTML dengan menggunakan atribut style. Contohnya seperti berikut:
 
 Untuk menambahkan styling properties lainnya (multiple properties), kita tuliskan dengan menggunakan semicolon (;) sebagai pemisah antar styling properties-nya.
 <h1 style="color: green; margin-top: 2em">Kota Bandung</h1>
 
 Inline styles hanya diterapkan pada elemen di mana atribut style diterapkan. Teknik ini seharusnya dihindari terkecuali benar-benar diperlukan untuk menggantikan sebuah styling yang ditetapkan pada Embedded Style Sheet atau External Style Sheet.
+
+
+# Commenting in Style
+Pada contoh kode di atas, kita sudah melihat sebuah teks pada rule yang dimulai dari /* dan diakhiri dengan */. Teks tersebut merupakan commenting line di dalam sebuah CSS. Sama seperti commenting pada HTML dan bahasa pemrograman lainnya, Teks yang dijadikan sebuah komentar tidak akan diproses oleh browser (sebagai compiler) atau lebih tepatnya “diabaikan”.
 
 
