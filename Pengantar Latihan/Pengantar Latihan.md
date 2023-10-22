@@ -5,4 +5,4 @@ Latihan ini akan mencakup beberapa tahapan, seperti membuat berkas CSS, menulisk
 
 Pada akhir latihan, kita akan mengembangkan proyek ini hingga memiliki hasil berikut.
 
-https://www.dicoding.com/academies/123/tutorials/4194?from=4191#
+![Alt text](image.png)
