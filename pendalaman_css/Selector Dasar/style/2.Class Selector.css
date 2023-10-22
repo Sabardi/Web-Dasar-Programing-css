@@ -10,3 +10,12 @@
     font-weight: bold;
     text-shadow: 4px 4px 3px
 }
+
+.fancy{
+    font-weight: bold;
+    text-shadow: 4px 4px 3px #77f;
+}
+
+p.fancy{
+    text-shadow: 4px 4px 3px #00c8eb;
+}
