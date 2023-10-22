@@ -1,0 +1,5 @@
+/* Rule akan diterapkan pada elemen paragraf yang berada tepat setelah elemen img */
+img + p {
+    color: green;
+  }
+  
