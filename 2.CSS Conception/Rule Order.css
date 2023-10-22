@@ -1,0 +1,7 @@
+/* membuat property styling */
+p{
+    color: red !important;  
+}
+p{
+    color: blue; 
+}
