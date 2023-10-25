@@ -1,0 +1,2 @@
+Pada pembahasan sebelumnya, kita terfokus pada formatting bentuk karakter ditampilkan dengan menggunakan beberapa properti font yang ada. Sekarang kita akan mempelajari cara seorang developer bisa memberikan formatting pada keseluruhan teks yang ada pada baris paragraf, seperti menetapkan inden, jarak antar baris, kata dan huruf, dan sebagainya. Maka dari itu, mari kita bahas satu per satu.
+Line Height, Text Indent, dan Text Alignment, Text Decoration, Text Transform, Word-Letter Spacing, dan Text Shadow
