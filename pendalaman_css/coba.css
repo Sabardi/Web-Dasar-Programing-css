@@ -1,0 +1,30 @@
+*{
+    margin:0;
+}
+
+.container{
+    background-color:yellow;
+    height:50px;
+}
+
+.beranda{
+    position:absolute;
+    left:90%;
+    top:20px;
+    font-size:large;
+}
+
+.profile{
+    position:absolute;
+    left:80%;
+    font-size:large;
+    top:20px;
+    font-style:bold;
+}
+
+.about{
+    position:absolute;
+    left:70%;
+    font-size:large;
+    top:20px;
+}
