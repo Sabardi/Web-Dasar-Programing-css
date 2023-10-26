@@ -1,0 +1,13 @@
+/* Warna hijau menggunakan format RGB */
+.RGB{
+    color: rgb(78,231,23);
+}
+ 
+/* Warna hijau Menggunakan format HEX */
+.HEX{
+    color: #4ee717;
+}
+/* Warna hijau menggunakan format HSL (hanya di CSS3)*/
+.HSL{
+    color: hsl(104, 82%, 50%);
+}
