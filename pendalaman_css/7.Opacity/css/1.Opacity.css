@@ -1,0 +1,12 @@
+p {
+    background-color: red;
+  }
+  
+  p.opacity-50 {
+    opacity: 50%;
+  }
+  
+  p.opacity-100 {
+    opacity: 100%;
+  }
+  
