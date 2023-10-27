@@ -1,0 +1,28 @@
+.visible {
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+    overflow: visible; 
+}
+
+.hidden {
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+    overflow: hidden; 
+}
+
+.scroll {
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+    overflow: scroll; 
+}
+
+.auto {
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+    overflow: auto; 
+}
+  
