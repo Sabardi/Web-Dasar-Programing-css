@@ -1,0 +1,46 @@
+.box1{
+    border: solid;
+    width: 200px;
+    height:200px;
+    border-color: rgb(80, 138, 212);
+    text-align: center;
+
+}
+
+.box2{
+    border: dotted;
+    width: 200px;
+    height:200px;
+    border-color: rgb(80, 138, 212);
+    text-align: center;
+}
+
+.box3{
+    border: dashed;
+    width: 200px;
+    height:200px;
+    border-color: rgb(80, 138, 212);
+    text-align: center;
+}
+
+.box4{
+    border: double;
+    width: 200px;
+    height:200px;
+    border-color: rgb(80, 138, 212);
+    text-align: center;
+}
+.box5{
+    border: groove;
+    width: 200px;
+    height:200px;
+    border-color: rgb(80, 138, 212);
+    text-align: center;
+}
+.box6{
+    border: hidden;
+    width: 200px;
+    height:200px;
+    border-color: rgb(80, 138, 212);
+    text-align: center;
+}
