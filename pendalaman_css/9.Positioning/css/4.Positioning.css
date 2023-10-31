@@ -1,0 +1,22 @@
+/* penambahan kode parent nya */
+.parent { 
+    width: 500px;
+    margin: 0 auto;
+    border: 4px solid black;
+    padding: 20px;
+    position: relative; /* menambahkan nilai relatif */
+  }
+h1 {
+    width: 250px;
+  }
+  
+  p {
+    width: 450px;
+  }
+  
+  .absolute {
+    position: absolute;
+    top: 0;
+    left: 50px;
+  }
+  

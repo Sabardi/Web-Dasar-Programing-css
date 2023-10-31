@@ -1,0 +1,22 @@
+.box {
+    width: 200px;
+    height: 200px;
+  }
+   
+  .first {
+    background-color: #60d0a8;
+  }
+   
+  .second {
+    background-color: #6495ed;
+    margin-top: 20px;
+
+    position: relative;
+    top: 30px;
+    left: 10px;
+  }
+   
+  .third {
+    background-color: #ffa500;
+    margin-top: 20px;
+  }
