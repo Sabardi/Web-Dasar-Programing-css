@@ -122,3 +122,68 @@ Ketika menggunakan properti float, jangan lupa untuk menentukan ukuran lebar dar
 
 Lantas, jika nilainya hanya left dan right, bagaimana apabila terdapat lebih dari dua kolom dalam menyusun layout? Hal tersebut sangat mudah dilakukan, kita hanya perlu menetapkan nilai left pada ketiga kolomnya, dengan demikian maka kolom akan tampil bersebelahan sesuai urutan penulisan elemennya.
 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Judul Dokumen</title>
+    
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-content">
+        <h3>Left Content</h3>
+      </div>
+      <div class="center-content">
+        <h3>Center Content</h3>
+      </div>
+      <div class="right-content">
+        <h3>Right Content</h3>
+      </div>
+    </div>
+  </body>
+</html>
+
+* {
+  /* digunakan untuk menghapus seluruh padding dan margin standar yang diberikan browser pada elemen */
+  margin: 0;
+  padding: 0;
+
+  /* Menggunakan border-box dalam perhitungan dimensi box-nya */
+  box-sizing: border-box;
+}
+
+.container {
+  width: 800px;
+  height: 400px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.left-content {
+  text-align: center;
+  line-height: 400px;
+  width: 33.3%;
+  height: 100%;
+  background-color: #00c7ed;
+  float: left;
+}
+
+.center-content {
+  text-align: center;
+  line-height: 400px;
+  width: 33.3%;
+  height: 100%;
+  background-color: #d0b541;
+  float: left;
+}
+
+.right-content {
+  text-align: center;
+  line-height: 400px;
+  width: 33.3%;
+  height: 100%;
+  background-color: #60d0a8;
+  float: left;
+}
