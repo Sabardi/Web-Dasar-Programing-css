@@ -61,3 +61,71 @@ header.navbar-container .nav-list li:hover a{
     background-color: #425c77;
     color: white;
 }
+
+main{
+    max-width: 1200px;
+    width: 100%;
+    margin-inline: auto;
+    padding: 2rem 4rem;
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+}
+/* content */
+main .content{
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+}
+
+/* content-description */
+main .content .content-description p{
+    flex: 1;
+
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+
+}
+/* title nya */
+main .content .content-description .title{
+    font-size: 3.5rem;
+    margin-block: 1rem;
+}
+
+/* tag p */
+/* main .content .content-description p{
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+} */
+
+/* button */
+main .content .content-description Button{
+    padding: .8rem 2.5rem;
+    margin-block-start: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Quicksand',sans-serif;
+    color: white;
+
+    border: 3px solid transparent;
+    border-radius: 999px;
+    background-color: #2D3E50;
+    cursor: pointer;
+    transition: all .15s ease-in;
+}
+
+main .content .content-description Button:hover{
+    border: 3px solid #2D3E50;
+    color: #2D3E50;
+    background-color: transparent;
+}
+
+/* image / gambar */
+main .content .content-image img{
+    margin: auto;
+    min-width: 250px;
+    width: 300px;
+}
