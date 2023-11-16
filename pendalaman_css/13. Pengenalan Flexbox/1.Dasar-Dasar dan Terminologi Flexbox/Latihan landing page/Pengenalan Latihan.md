@@ -349,3 +349,10 @@ main aside .social-media li a {
 main aside .social-media li a:hover {
   color: #89b0d9;
 }
+
+Jika kita jalankan, hasilnya akan seperti berikut.
+![Alt text](image-11.png)
+
+23. Jika kita lihat keseluruhan kode, hasilnya akan seperti di bawah ini
+
+selamat kita berhasil
