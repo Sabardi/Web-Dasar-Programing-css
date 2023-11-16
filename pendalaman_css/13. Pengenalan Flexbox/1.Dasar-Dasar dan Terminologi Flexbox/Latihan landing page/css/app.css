@@ -169,6 +169,22 @@ main aside .social-media li a{
 }
 
 main aside .social-media li:hover{
-    color: #89b0d9
-;
+    color: #89b0d9;
+}
+
+/* medium device (landscape tablets, 768px and down */
+@media screen and (max-widht: 768px) {
+    header .navbar-container{
+        flex-direction: column;
+    }
+
+    header.navbar-container .nav-list ul{
+        flex-wrap: wrap;
+        column-gap: .5rem;
+    }
+    
+    main .content{
+        flex-direction: column;
+        gap: 2rem;
+    }
 }
